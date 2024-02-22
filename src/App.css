@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--cream-bg, #f2eae2);
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.main-container {
+  width: 100%;
+
+  background-color: white;
+  border-radius: 10px;
+}
+
+.image-container {
+  background-image: url("./images/image-product-mobile.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 240px;
+  border-radius: 10px 10px 0 0;
+}
+
+.text-container {
+  padding: 24px;
+}
+
+.category {
+  display: block;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 5px;
+  color: #6c7289;
+  font-family: Montserrat;
+}
+
+.title {
+  color: var(--Gunmetal, #1c232b);
+  font-feature-settings: "clig" off, "liga" off;
+  margin-top: 10px;
+  font-family: Fraunces;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.paragraph {
+  color: var(--Aurometal-Saurus, #6c7289);
+  margin-top: 15px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+}
+
+.prices {
+  margin-top: 25px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.prices p {
+  color: var(--Deep-Aquamarine, #3d8168);
+
+  font-family: Fraunces;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 100% */
+}
+
+.prices span {
+  color: var(--Aurometal-Saurus, #6c7289);
+
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+  text-decoration: line-through;
+}
+
+.btn {
+  width: 100%;
+  border-radius: 8px;
+  background: var(--Deep-Aquamarine, #3d8168);
+  border: none;
+  outline: none;
+  padding: 14px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  color: #fff;
+  cursor: pointer;
+}
