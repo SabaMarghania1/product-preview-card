@@ -110,3 +110,41 @@ body {
   color: #fff;
   cursor: pointer;
 }
+
+@media screen and (min-width: 1200px) {
+  .main-container {
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+  }
+  .image-container {
+    background-image: url("./images/image-product-desktop.jpg");
+    width: 100%;
+    background-size: cover;
+    height: 450px;
+    border-radius: 10px 0 0 10px;
+  }
+
+  .text-container {
+    padding: 32px;
+    width: 100%;
+  }
+  .category {
+    font-size: 12px;
+    margin-bottom: 24px;
+  }
+  .title {
+    font-size: 32px;
+    max-width: 236px;
+    margin-bottom: 24px;
+  }
+  .paragraph {
+    margin-bottom: 29px;
+    font-size: 14px;
+    max-width: 237px;
+  }
+
+  .prices {
+    margin-bottom: 30px;
+  }
+}
